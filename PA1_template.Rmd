@@ -156,8 +156,3 @@ act %>% group_by(week, interval) %>%
         facet_wrap(~week, ncol=1, nrow = 2)+
         theme_bw()
 ```
-
-```{r output, echo=TRUE}
-knit2html()
-
-```
